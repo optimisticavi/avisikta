@@ -16,6 +16,7 @@ public class FifoCache extends LinkedHashMap<Integer, String> implements CacheIn
 
 	  private static final long serialVersionUID = 1L;
 	  private int capacity;
+	private int a;
 
 	
 	public FifoCache(int capacity){
